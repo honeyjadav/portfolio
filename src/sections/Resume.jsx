@@ -1,5 +1,3 @@
-import { personal } from "../data/portfolio";
-
 export default function Resume() {
   return (
     <section id="resume" className="section resume">
@@ -18,9 +16,6 @@ export default function Resume() {
             Download Resume ↓
           </a>
         </div>
-        <p className="resume__note">
-          Replace <code>/public/resume.pdf</code> with your actual resume file, {personal.name.split(" ")[0]}.
-        </p>
       </div>
     </section>
   );
