@@ -14,7 +14,7 @@ export default function Resume() {
             </p>
             <p className="resume__sub">Grab a copy of my resume as a PDF.</p>
           </div>
-          <a className="btn btn--primary" href="/resume.pdf" download="Honey_Jadav_Resume.pdf">
+          <a className="btn btn--primary" href={`${import.meta.env.BASE_URL}resume.pdf`} download="Honey_Jadav_Resume.pdf">
             Download Resume ↓
           </a>
         </div>
